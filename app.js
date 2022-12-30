@@ -15,5 +15,5 @@ app.use(express.json());
 app.use('/users', user);
 
 app.listen(port, function () {
-    console.log("server running at 3000 ms");
+    console.log(`server running at ${port}`);
 });
