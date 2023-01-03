@@ -7,7 +7,7 @@ require("dotenv/config");
 
 //connecting database
 mongoose.set('strictQuery', true);
-mongoose.connect(process.env.DB_CONNECTING_STRING,(req,res)=>{
+mongoose.connect(process.env.DB_CONNECTING_STRING, (req, res) => {
     console.log("Connected to the database");
 });
 
