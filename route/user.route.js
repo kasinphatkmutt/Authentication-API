@@ -9,6 +9,8 @@ router.get('/:id', user_controller.read);
 
 router.get('/views/all-users', user_controller.view);
 
+router.post('/login', user_controller.login);
+
 router.put('/:id', user_controller.update);
 
 router.delete('/:id', user_controller.delete);
