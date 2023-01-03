@@ -62,7 +62,7 @@ exports.login = function (req,res){
     }
     else{
         if (user.password == password) res.send(user);
-        else res.send("Wrong Password");
+        else res.send("Wrong Password 2");
     }
    });
 }
